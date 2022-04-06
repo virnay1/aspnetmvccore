@@ -1,0 +1,7 @@
+<h2>Products</h2>
+
+<div>
+    <p *ngFor="let product of products">
+        {{product.Name}} costs {{product.Price|currency}}
+    </p>
+</div>
